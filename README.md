@@ -1,23 +1,80 @@
 <div align="center">
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg">
+  <svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" width="100%" style="background:#04070d;border-radius:16px">
+    <defs>
+      <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#38e1ff"/>
+        <stop offset="100%" stop-color="#8b7bff"/>
+      </linearGradient>
+      <radialGradient id="grad2" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#38e1ff" stop-opacity="0.35"/>
+        <stop offset="100%" stop-color="#04070d" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="softglow"><feGaussianBlur stdDeviation="4"/></filter>
+    </defs>
+
+    <!-- ambient glow -->
+    <circle cx="560" cy="160" r="180" fill="url(#grad2)"/>
+    <circle cx="200" cy="220" r="120" fill="url(#grad2)" opacity="0.6"/>
+
+    <!-- isometric code block -->
+    <g transform="translate(120,90)">
+      <ellipse cx="80" cy="200" rx="90" ry="10" fill="#000" opacity="0.4"/>
+      <polygon points="0,80 80,40 160,80 80,120" fill="#0b1222" stroke="#38e1ff" stroke-width="1.2"/>
+      <polygon points="0,80 0,160 80,200 80,120" fill="#070c17" stroke="rgba(56,225,255,0.4)" stroke-width="1"/>
+      <polygon points="160,80 160,160 80,200 80,120" fill="#0a1120" stroke="rgba(56,225,255,0.4)" stroke-width="1"/>
+      <g transform="translate(10,60)">
+        <rect x="20" y="0"  width="80"  height="2" fill="#38e1ff" opacity="0.85"/>
+        <rect x="20" y="8"  width="50"  height="2" fill="#8b7bff" opacity="0.7"/>
+        <rect x="20" y="16" width="100" height="2" fill="#38e1ff" opacity="0.6"/>
+        <rect x="20" y="24" width="60"  height="2" fill="#5ee7a4" opacity="0.75"/>
+        <rect x="20" y="32" width="70"  height="2" fill="#8b96ab" opacity="0.5"/>
+      </g>
+    </g>
+
+    <!-- 3D icosahedron -->
+    <g transform="translate(560,160)">
+      <circle r="70" fill="url(#grad2)"/>
+      <g stroke="url(#grad1)" stroke-width="1.4" fill="none" opacity="0.9">
+        <polygon points="0,-55 52,17 -52,17"/>
+        <polygon points="0,55 52,-17 -52,-17"/>
+        <polygon points="0,-55 0,55 52,17" opacity="0.5"/>
+        <polygon points="0,-55 0,55 -52,17" opacity="0.5"/>
+        <polygon points="52,17 52,-17 0,55" opacity="0.4"/>
+        <polygon points="-52,17 -52,-17 0,55" opacity="0.4"/>
+      </g>
+      <circle r="4" fill="#38e1ff">
+        <animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <ellipse rx="80" ry="20" fill="none" stroke="#38e1ff" stroke-width="0.8" opacity="0.3" transform="rotate(-20)">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="12s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="95" ry="14" fill="none" stroke="#8b7bff" stroke-width="0.6" opacity="0.25" transform="rotate(35)">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="18s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <!-- floating particles -->
+    <g fill="#38e1ff">
+      <circle cx="100" cy="50"  r="2"  ><animate attributeName="opacity" values="0.2;1;0.2" dur="3s"   repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="80"  r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="380" cy="40"  r="1.8"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="450" cy="280" r="1.5" fill="#8b7bff"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.3s" repeatCount="indefinite"/></circle>
+      <circle cx="680" cy="260" r="2"   fill="#8b7bff"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text x="400" y="305" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#8b96ab" letter-spacing="3">
+      BUILDING · DEPLOYING · SHIPPING
+    </text>
+  </svg>
+
   <img
-    src="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg"
-    alt="Aaryan Mendhekar"
-    width="100%">
-</picture>
+    src="https://capsule-render.vercel.app/api?type=waving&color=04070d,38e1ff,8b7bff,04070d&height=120&section=header&text=&fontSize=0&animation=twinkling"
+    width="100%"
+    alt="Animated gradient atmosphere">
+
 </div>
-
-<div>
-<!-- Animated gradient atmosphere -->
-<img
-  src="https://capsule-render.vercel.app/api?type=waving&color=04070d,38e1ff,8b7bff,04070d&height=120&section=header&text=&fontSize=0&animation=twinkling"
-  width="100%"
-  alt="Animated gradient">
-
 
 
 <!-- Animated name & typing role -->

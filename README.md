@@ -4,7 +4,6 @@
   <source
     media="(prefers-color-scheme: dark)"
     srcset="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg">
-
   <img
     src="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg"
     alt="Aaryan Mendhekar"

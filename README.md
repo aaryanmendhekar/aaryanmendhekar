@@ -1,38 +1,10 @@
 <div align="center">
 
-
+<!-- 3D isometric hero scene (custom SVG) -->
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg">
-
-<img
-    src="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg"
-    alt="Aaryan Mendhekar"
-    width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg">
+  <img src="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg" alt="Aaryan Mendhekar" width="100%"/>
 </picture>
-
-
-  <svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" width="100%" style="background:#04070d;border-radius:16px">
-    <defs>
-      <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0%" stop-color="#38e1ff"/>
-        <stop offset="100%" stop-color="#8b7bff"/>
-      </linearGradient>
-      <radialGradient id="grad2" cx="0.5" cy="0.5" r="0.5">
-        <stop offset="0%" stop-color="#38e1ff" stop-opacity="0.35"/>
-        <stop offset="100%" stop-color="#04070d" stop-opacity="0"/>
-      </radialGradient>
-      <filter id="softglow"><feGaussianBlur stdDeviation="4"/></filter>
-    </defs>
-    
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=04070d,38e1ff,8b7bff,04070d&height=120&section=header&text=&fontSize=0&animation=twinkling"
-    width="100%"
-    alt="Animated gradient atmosphere">
-
-</div>
-
 
 <!-- Animated name & typing role -->
 <h1>
@@ -183,17 +155,4 @@ I'm a Computer Science undergraduate focused on building **production-grade soft
 <br/>
 <br/>
 
-</div><!--
-**aaryanmendhekar/aaryanmendhekar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>

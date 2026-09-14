@@ -73,11 +73,11 @@ I'm a Computer Science undergraduate focused on building **production-grade soft
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" width="28"/> 03 — Experience
 
 ```diff
-+ Microsoft Azure · AI Intern (AICTE)            May – Jun 2025 · 4 wks · Online
-!  ── Focus: Artificial Intelligence & Cloud
-!  ── Deployed object-detection CV pipeline using Azure Cognitive Services
-!  ── Hands-on with cloud computing, model training & AI service integration
-!  ── Explored real-world AI deployment pipelines & scalable architecture
+ Microsoft Azure · AI Intern (AICTE)            May – Jun 2025 · 4 wks · Online
+─ Focus: Artificial Intelligence & Cloud
+─ Deployed object-detection CV pipeline using Azure Cognitive Services
+─ Hands-on with cloud computing, model training & AI service integration
+─ Explored real-world AI deployment pipelines & scalable architecture
 ```
 
 ---

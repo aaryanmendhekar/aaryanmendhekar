@@ -26,7 +26,7 @@
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Man%20Technologist.png" width="28"/> 01 — Profile
+## 👤 01 — Profile
 
 ```yaml
 Name        : Aaryan Mendhekar
@@ -82,7 +82,7 @@ I'm a Computer Science undergraduate focused on building **production-grade soft
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="28"/> 04 — Featured Projects
+## ✨ 04 — Featured Projects
 
 <div align="center">
 
@@ -127,7 +127,7 @@ I'm a Computer Science undergraduate focused on building **production-grade soft
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Handshake.png" width="28"/> 07 — Let's Connect
+## 🤝 07 — Let's Connect
 
 <div align="center">
 

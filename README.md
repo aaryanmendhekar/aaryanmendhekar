@@ -158,9 +158,6 @@ I'm a Computer Science undergraduate focused on building **production-grade soft
 <br/>
 <br/>
 
-<!-- Footer wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=04070d,38e1ff,8b7bff,04070d&height=140&section=footer&text=Built+with+intent+%C2%B7+Nagpur+IN&fontColor=8b96ab&fontSize=14&animation=twinkling"/>
-
 </div><!--
 **aaryanmendhekar/aaryanmendhekar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

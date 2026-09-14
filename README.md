@@ -1,5 +1,18 @@
 <div align="center">
 
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg">
+
+<img
+    src="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg"
+    alt="Aaryan Mendhekar"
+    width="100%">
+</picture>
+
+
   <svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" width="100%" style="background:#04070d;border-radius:16px">
     <defs>
       <linearGradient id="grad1" x1="0" y1="0" x2="1" y2="1">

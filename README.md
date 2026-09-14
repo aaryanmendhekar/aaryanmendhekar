@@ -1,8 +1,5 @@
 <div align="center">
 
-<!-- Animated gradient banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=04070d,38e1ff,8b7bff,04070d&height=220&section=header&text=&fontSize=0&animation=twinkling" width="100%"/>
-
 <!-- 3D isometric hero scene (custom SVG) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aaryanmendhekar/aaryanmendhekar/main/assets/hero-scene-dark.svg">
